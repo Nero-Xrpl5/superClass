@@ -13,6 +13,14 @@ public class Product {
         price = 0.0;
     }
 
+    public Product(int nr,String nm, int q,double p){
+        this.nr = number;
+        this.nm = name;
+        this.q = quantity;
+        this.p = price;
+
+    }
+
     public int getNumber() {
         return this.number;
     }

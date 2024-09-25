@@ -12,6 +12,10 @@ public class CD extends Product {
         numSong = 0;
         label = "";
     }
+
+    public CD(int number, String name, int quantity, double price, String artist, int numSong, String label){
+        
+    }
     
     public String getArtist() {
         return this.artist;
